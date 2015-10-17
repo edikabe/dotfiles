@@ -1,0 +1,21 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+#	name = Julien GLOTAIN
+#	email = jglotain@gmail.com
+[user]
+	email = jglotain@gmail.com
+[alias]
+	co = checkout
+	cob = checkout -b
+	cp = cherry-pick
+	st = status -s
+	cl = clone
+	ci = commit
+	co = checkout
+	br = branch
+	diff = diff --word-diff
+	dc = diff --cached
+	bra = branch --all
+	history = log --abbrev-commit --pretty=oneline --graph --decorate
+	resetlast = reset --hard HEAD
